@@ -1,0 +1,22 @@
+{
+	"config":{
+		"mode":"local",
+		"input_path":"C:/Weather/StationData",
+		"output_path":"C:/Weather/",
+		"schema":[
+			{"cname":"station","ctype":"string"},
+			{"cname":"year","ctype":"int"},
+			{"cname":"month","ctype":"int"},
+			{"cname":"tmax","ctype":"double"},
+			{"cname":"tmin","ctype":"double"},
+			{"cname":"af","ctype":"double"},
+			{"cname":"rain","ctype":"double"},
+			{"cname":"sun","ctype":"double"}
+		],
+		"measuresCols":["tmax","tmin","af","rain","sun"],
+		"winterMonths":[12,1,2],
+		"springMonths":[3,4,5],
+		"summerMonths":[6,7,8],
+		"autumnMonths":[9,10,11]
+	}
+}
